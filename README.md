@@ -1,5 +1,5 @@
 # Promnesia-101
-[Promnesia](https://github.com/karlicoss/promnesia) set-up and instructions for windows
+[Promnesia](https://github.com/karlicoss/promnesia) set-up and [instructions for windows](https://github.com/karlicoss/promnesia/issues/91#issuecomment-1051415443).
 
 ## Set-up
 ### Installation
@@ -72,7 +72,7 @@ Follow the belo steps to use promnesia for a custom database:
     ```
     </details>
 
-- Indexing in windows with UTF-8. When running `python -m promnesia  index` in windows, you might see an error `character maps to <undefined>`. To solve this, you need to rung the following command before indexing:
+- Indexing in windows with UTF-8. When running `python -m promnesia  index` in windows, you might see an [error `character maps to <undefined>`](https://github.com/karlicoss/promnesia/issues/274). To solve this, you need to rung the following command before indexing:
 
     ```
     set PYTHONUTF8=1
