@@ -83,4 +83,9 @@ Follow the belo steps to use promnesia for a custom database:
     ```
     python -m promnesia  index
     ```
-- run the server: `python -m promnesia serve`
+- run the server: 
+
+    Run the below command to share the data from database to the browser plugin
+    ```
+    python -m promnesia serve
+    ```
